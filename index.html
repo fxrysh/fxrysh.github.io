@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script>
+            (function () {
+                const targetURL = new URL(window.location.toString());
+                targetURL.hostname = 'fxrysh.deno.dev';
+                targetURL.protocol = 'https:';
+        
+                window.location.replace(targetURL);
+            }.call(this));
+        </script>
+    </head>
+    <body></body>
+</html>
